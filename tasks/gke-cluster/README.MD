@@ -13,7 +13,7 @@ zone: "zone asociada a su cuenta GCP"
 ```
 _Configurar variables de la aplicacion a desplegar en el GKE, en el archivo k8s-config/variables.tf_
 ```
-name : "numero de replicas de la aplicacion python que se va a desplegar, por defecto 1"
+replicas : "numero de replicas de la aplicacion python que se va a desplegar, por defecto 1"
 ```
 
 _Dar permiso al sh_
